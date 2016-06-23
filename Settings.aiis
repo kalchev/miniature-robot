@@ -179,8 +179,20 @@
     "DefaultWPFApplication": null,
     "UseLegacySilverlightFindLogic": false,
     "ProjectGuid": "e1b3d0b0-f3ac-4c76-a64b-a8876ab94b95",
-    "SourceControlRepository": null,
-    "IsOnline": false,
+    "SourceControlRepository": {
+      "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitRepositoryInfo",
+      "__value": {
+        "RemotePath": "https://github.com/kalchev/miniature-robot.git",
+        "ServerInfo": {
+          "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitServerInfo",
+          "__value": {
+            "ServerName": "https://github.com/kalchev/miniature-robot.git"
+          }
+        },
+        "ServerType": 2
+      }
+    },
+    "IsOnline": true,
     "ProjectLanguage": 2,
     "ProjectReferences": [
       "System",
